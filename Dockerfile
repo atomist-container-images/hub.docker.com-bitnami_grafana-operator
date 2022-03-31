@@ -94,6 +94,3 @@ FROM bitnami/grafana-operator:4.2.0-debian-10-r7
 
 # Tags: 4.2.0-debian-10-r6
 FROM bitnami/grafana-operator:4.2.0-debian-10-r6
-
-# Tags: 4.2.0-debian-10-r5
-FROM bitnami/grafana-operator:4.2.0-debian-10-r5
