@@ -1,12 +1,24 @@
-# Tags: latest, 4.2.0-debian-10-r35, 4.2.0, 4-debian-10, 4
+# Tags: latest, 4.2.0-debian-10-r40, 4.2.0, 4-debian-10, 4
 FROM bitnami/grafana-operator:latest
-FROM bitnami/grafana-operator:4.2.0-debian-10-r35
+FROM bitnami/grafana-operator:4.2.0-debian-10-r40
 FROM bitnami/grafana-operator:4.2.0
 FROM bitnami/grafana-operator:4-debian-10
 FROM bitnami/grafana-operator:4
 
 # Tags: _
 FROM bitnami/grafana-operator:_
+
+# Tags: 4.2.0-debian-10-r39
+FROM bitnami/grafana-operator:4.2.0-debian-10-r39
+
+# Tags: 4.2.0-debian-10-r38
+FROM bitnami/grafana-operator:4.2.0-debian-10-r38
+
+# Tags: 4.2.0-debian-10-r37
+FROM bitnami/grafana-operator:4.2.0-debian-10-r37
+
+# Tags: 4.2.0-debian-10-r35
+FROM bitnami/grafana-operator:4.2.0-debian-10-r35
 
 # Tags: 4.2.0-debian-10-r34
 FROM bitnami/grafana-operator:4.2.0-debian-10-r34
@@ -82,15 +94,3 @@ FROM bitnami/grafana-operator:4.2.0-debian-10-r11
 
 # Tags: 4.2.0-debian-10-r10
 FROM bitnami/grafana-operator:4.2.0-debian-10-r10
-
-# Tags: 4.2.0-debian-10-r9
-FROM bitnami/grafana-operator:4.2.0-debian-10-r9
-
-# Tags: 4.2.0-debian-10-r8
-FROM bitnami/grafana-operator:4.2.0-debian-10-r8
-
-# Tags: 4.2.0-debian-10-r7
-FROM bitnami/grafana-operator:4.2.0-debian-10-r7
-
-# Tags: 4.2.0-debian-10-r6
-FROM bitnami/grafana-operator:4.2.0-debian-10-r6
